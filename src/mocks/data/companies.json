@@ -1,0 +1,80 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "team_id": 1,
+            "name": "O'Reilly-Heathcote",
+            "locale": "ru_BY",
+            "city": "Itzelside",
+            "timezone": "Europe/Minsk",
+            "legal": {
+                "name": "ООО Рога и Копыта",
+                "it": "Без N 07.10.2021",
+                "service": "Без N 07.10.2021",
+                "unn": "191795669",
+                "address": "82759 Marquise AlleyLake Ethylville, DE 27968",
+                "phone": "+375442153452"
+            },
+            "aggregator_id": null
+        },
+        {
+            "id": 2,
+            "team_id": 1,
+            "name": "Connelly-Dicki",
+            "locale": "ru_AM",
+            "city": "Port Gennaroview",
+            "timezone": "Europe/Minsk",
+            "legal": {
+                "unn": "190893891",
+                "address": "351 Bo Row Apt. 639\nNew Rhiannonbury, HI 54483",
+                "name": null
+            },
+            "aggregator_id": null
+        },
+        {
+            "id": 3,
+            "team_id": 3,
+            "name": "Russel-Schoen",
+            "locale": "ru_BY",
+            "city": "Macyborough",
+            "timezone": "Europe/Minsk",
+            "legal": {
+                "unn": 194417761,
+                "address": "61225 Walter Rue Suite 295\nSouth Alex, RI 42051-5622"
+            },
+            "aggregator_id": null
+        }
+    ],
+    "links": {
+        "first": "http://localhost:8000/api/v2/companies?page=1",
+        "last": "http://localhost:8000/api/v2/companies?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo;",
+                "active": false
+            },
+            {
+                "url": "http://localhost:8000/api/v2/companies?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "&raquo;",
+                "active": false
+            }
+        ],
+        "path": "http://localhost:8000/api/v2/companies",
+        "per_page": 15,
+        "to": 3,
+        "total": 3
+    }
+}
